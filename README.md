@@ -1,17 +1,15 @@
-<div align="right">
+<div align="left">
 
 # 🏨 Mokaa Residence
 
-### *Modern Hotel Management Platform*
+### *Hotel Management Platform*
 
 [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-**A fullstack web application for hotel management featuring suites, restaurant, and conference facilities**
-
-[Features](#-features) • [Tech Stack](#-tech-stack) • [Installation](#-installation) • [API Docs](#-api-documentation) • [Roadmap](#-roadmap)
+**Private project - Fullstack web application for hotel management**
 
 ---
 
@@ -19,7 +17,7 @@
 
 ## 📖 About
 
-Mokaa Residence is a comprehensive hotel management platform that provides:
+Mokaa Residence is a custom hotel management platform developed for a private client, featuring:
 
 - 🛏️ **Suite Management** - Browse and book luxurious suites
 - 🍽️ **Restaurant Services** - Explore dining options and menus
@@ -27,27 +25,11 @@ Mokaa Residence is a comprehensive hotel management platform that provides:
 - 🌐 **Bilingual Support** - Full French & English interface
 - 📱 **Responsive Design** - Seamless experience across all devices
 
-## ✨ Features
-
-### Current
-- 🎨 Modern, responsive UI
-- 🔐 Secure authentication system
-- 📊 Admin dashboard for content management
-- 🌍 Bilingual interface (FR/EN)
-
-### Coming Soon
-- [ ] Real-time booking system
-- [ ] Payment integration
-- [ ] Email notifications
-- [ ] Customer reviews & ratings
-- [ ] Photo gallery
-- [ ] Availability calendar
-
 ## 🚀 Tech Stack
 
 <table>
 <tr>
-<td align="right" width="50%">
+<td align="left" width="50%">
 
 ### Frontend
 - **React** - UI Framework
@@ -56,7 +38,7 @@ Mokaa Residence is a comprehensive hotel management platform that provides:
 - **Axios** - API Communication
 
 </td>
-<td align="right" width="50%">
+<td align="center" width="50%">
 
 ### Backend
 - **Django** - Web Framework
@@ -162,12 +144,12 @@ mokaaResidence/
 
 **Admin Panel:** `http://127.0.0.1:8000/admin`
 
-## 🗺️ Roadmap
+## ✨ Features Development
 
 ### Phase 1: Foundation ✅
 - [x] Project setup
 - [x] Basic structure
-- [x] README documentation
+- [x] Documentation
 
 ### Phase 2: Core Features 🚧
 - [ ] Database models
@@ -179,46 +161,64 @@ mokaaResidence/
 - [ ] Booking system
 - [ ] Payment integration
 - [ ] Email notifications
-- [ ] Admin dashboard enhancements
+- [ ] Admin dashboard
 
-### Phase 4: Production 🎯
+### Phase 4: Deployment 🎯
 - [ ] Testing & QA
 - [ ] Performance optimization
-- [ ] Deployment
-- [ ] Documentation
+- [ ] Production deployment
+- [ ] Client handover
 
-## 🤝 Contributing
+## 🔒 Security Notes
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+- Keep `.env` files private and never commit them
+- Update `SECRET_KEY` in production
+- Configure `ALLOWED_HOSTS` for production
+- Use HTTPS in production
+- Regular dependency updates
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📝 Development Guidelines
 
-## 📝 License
+### Code Style
+- Follow PEP 8 for Python code
+- Use ESLint for JavaScript/React
+- Write clear commit messages
+- Document complex functions
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Git Workflow
+- Create feature branches for new features
+- Use meaningful branch names
+- Keep commits atomic and focused
+- Test before committing
 
-## 👨‍💻 Author
+## 🛠️ Useful Commands
+
+### Django
+```bash
+python manage.py makemigrations    # Create migrations
+python manage.py migrate           # Apply migrations
+python manage.py createsuperuser   # Create admin user
+python manage.py runserver         # Start dev server
+python manage.py shell             # Django shell
+```
+
+### React
+```bash
+npm run dev        # Start development server
+npm run build      # Build for production
+npm run preview    # Preview production build
+```
+
+## 👨‍💻 Developer
 
 **Nelson**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-
-## 📧 Contact
-
-For any inquiries or suggestions, please reach out via:
-- Email: your.email@example.com
-- Project Link: [https://github.com/yourusername/mokaa-residence](https://github.com/yourusername/mokaa-residence)
+For project-related questions or issues, please contact the project manager.
 
 ---
 
 <div align="center">
 
-**Made with ❤️ for hospitality excellence**
+**Private & Confidential** • © 2025 Mokaa Residence
 
-⭐ Star this repo if you find it helpful!
-
-</div>
+</div>=
