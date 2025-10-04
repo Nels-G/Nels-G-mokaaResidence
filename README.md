@@ -1,6 +1,6 @@
 <div align="left">
 
-# 🏨 Mokaa Residence
+# Mokaa Residence
 
 ### *Hotel Management Platform*
 
